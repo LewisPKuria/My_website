@@ -1,0 +1,119 @@
+/* Set a universal font family */
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Style the header */
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 30px;
+  }
+  
+  /* Style the navigation menu */
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: left;
+  }
+  
+  nav li {
+    margin: 0 10px;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  /* Style the hero section */
+  .hero {
+    background-image: url("My_Photo.jpg");
+    background-size: auto;
+    background-repeat: no-repeat;
+    color: #fdfbfb;
+    text-align: left;
+    padding: 350px 0;
+  }
+  
+  .hero h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+  }
+  
+  .hero p {
+    font-size: 1.5em;
+  }
+  
+  /* Style the project section */
+	.projects img {
+		display: inline-block;
+		width: 300px; /* set the width you want */
+		height: auto;
+		margin-right: 150px; /* add some spacing between the images and the text */
+	}
+
+  .projects {
+    background-color: #1a1919;
+    padding: 100px;
+    text-align: left;
+  }
+  .projects li {
+    display: inline-block;
+    vertical-align: top;
+    margin-bottom: 10px; /* add some spacing between the list items */
+}
+  .projects h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  .projects p {
+    font-size: 1.2em;
+  }
+  
+  /* Style the about section */
+  .about-me {
+    background-color: #f3eded;
+    padding: 50px;
+    text-align: left;
+  }
+  
+  .about-me h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  .about-me p {
+    font-size: 1.2em;
+  }
+  .about-me img {
+    display: inline-block;
+    width: 300px; /* set the width you want */
+    height: auto;
+    margin-right: 150px; /* add some spacing between the images and the text */
+}
+.about-me li {
+    display: inline-block;
+    vertical-align: top;
+    margin-bottom: 10px; /* add some spacing between the list items */
+}
+.about-me {
+background-color: #f5f2f2;
+padding: 50px;
+text-align: left;
+}
+
+.about-me h2 {
+font-size: 2em;
+margin-bottom: 20px;
+}
+
+.about-me p {
+font-size: 1.2em;
+}
+
+  
